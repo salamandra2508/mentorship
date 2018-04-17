@@ -2,23 +2,29 @@
 
 set -x
 
-
+#describe instance hostname via meta-data
 instance_id=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
 
+#set new host name
 new_host_name=$(sudo hostnamectl set-hostname TEST-$instance_id)
 
+#add new hostname to /etc/hosts file
 sudo sh -c "echo '127.0.0.1 TEST-$instance_id ' >> /etc/hosts"
 
+#setup tomcat version
 tcver="apache-tomcat-8.0.23"
 
 
-
+#Update sustem and install apache, java , wget, mc, htop
 sudo apt-get update
 sudo apt-get install -y apache2 default-jdk wget mc htop
+
+#Setup sustem for tomcat
 sudo groupadd tomcat
 sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 cd ~
 
+#download tomcat
 if [[ ! -f /home/ubuntu/$tcver.tar.gz ]]; then
         wget -c https://archive.apache.org/dist/tomcat/tomcat-8/v8.0.23/bin/apache-tomcat-8.0.23.tar.gz
 else
@@ -41,6 +47,7 @@ sudo chown -R tomcat work/ temp/ logs/
 
 sudo touch /etc/init/tomcat.conf
 
+#Setup tomcat conf file
 sudo sh -c "echo 'description \"Tomcat Server\"
 start on runlevel [2345]
 stop on runlevel [!2345]
