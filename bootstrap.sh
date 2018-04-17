@@ -5,11 +5,9 @@ set -x
 
 instance_id=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
 
-echo $instance_id
-
 new_host_name=$(sudo hostnamectl set-hostname TEST-$instance_id)
 
-echo $new_host_name
+sudo sh -c "echo '127.0.0.1 TEST-$instance_id ' >> /etc/hosts"
 
 tcver="apache-tomcat-8.0.23"
 
@@ -43,7 +41,7 @@ sudo chown -R tomcat work/ temp/ logs/
 
 sudo touch /etc/init/tomcat.conf
 
-sudo sh -c "echo 'description Tomcat Server
+sudo sh -c "echo 'description \"Tomcat Server\"
 start on runlevel [2345]
 stop on runlevel [!2345]
 respawn
@@ -53,11 +51,9 @@ setgid tomcat
 env "\JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre"
 env "\CATALINA_HOME=/opt/tomcat"
 # Modify these options as needed
-env "\JAVA_OPTS="-Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom""
-env "\CATALINA_OPTS="-Xms512M -Xmx1024M -server -XX:+UseParallelGC""
-
+env "\JAVA_OPTS='"-Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom"'"
+env "\CATALINA_OPTS='"-Xms512M -Xmx1024M -server -XX:+UseParallelGC"'"
 exec "\$CATALINA_HOME"/bin/catalina.sh run
-
 # cleanup temp directory after stop
 post-stop script
 rm -rf "\$CATALINA_HOME/temp/*"
@@ -66,4 +62,5 @@ end script' > /etc/init/tomcat.conf"
 
 
 sudo initctl reload-configuration
+sudo initctl stop tomcat
 sudo initctl start tomcat
