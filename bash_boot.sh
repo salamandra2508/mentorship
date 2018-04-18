@@ -27,7 +27,7 @@ usage() {
 EOF
 }
 
-#Set parametres
+#Set arguments
 while getopts :p:t:i:k:: opt
 do
     case $opt in
@@ -51,13 +51,41 @@ aws ec2 run-instances --profile $awsprofile --image-id $ami --count 1 --instance
                       --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$tagName}]" \
                       --subnet-id $awssub
 
+sleep 20
+
+#Get instance ID
+instance_id=$(aws ec2  describe-instances --profile $awsprofile \
+              --filters "Name=tag:Name,Values=$tagName" \
+              --query "Reservations[*].Instances[*].InstanceId" \
+              --output text)
+
+echo "$instance_id"
+
+instance_state="$(aws --profile preprd ec2 describe-instance-status \
+                 --instance-id $instance_id | grep INSTANCESTATE | awk {'print $3'})"
+sleep 5
+
+TimeWaited=0
+while [ "$instance_state" = "pending" ]; do
+    if [ $TimeWaited -ge 10 ]; then
+        echo "Instance was not successful created after 30 sec"
+        exit 1
+    fi
+    sleep 5
+    TimeWaited=$[$TimeWaited+5]
+    instance_state="$(aws --profile preprd ec2 describe-instance-status \
+                     --instance-id $instance_id | grep INSTANCESTATE | awk {'print $3'})"
+    echo "Waiting for instance to be available $TimeWaited s"
+    echo "Status: $instance_id"
+done
 
 
 
 
 
 
-sleep 60
+
+
 
 
 #describe instance IP address
