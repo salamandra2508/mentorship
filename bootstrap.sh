@@ -67,7 +67,7 @@ rm -rf "\$CATALINA_HOME/temp/*"
 end script' > /etc/init/tomcat.conf"
 
 
-
+#Reload configuration and start tomcat Server
 sudo initctl reload-configuration
 sudo initctl stop tomcat
 sudo initctl start tomcat
