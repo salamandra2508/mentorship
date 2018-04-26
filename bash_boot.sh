@@ -5,6 +5,7 @@ set -x
 secGroup="sg-894444ec"
 ami="ami-eceba695"
 awsProfile=""
+keyName="DT.STAGEQA.KEY"
 tagName=""
 instanceType=""
 awsvpc="vpc-bb8d33de"
