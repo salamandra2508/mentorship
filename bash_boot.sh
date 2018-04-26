@@ -99,3 +99,4 @@ instanceIp=$(aws --profile $awsProfile ec2 describe-instances \
 	--query 'Reservations[*].Instances[*].PrivateIpAddress[]' \
 	--output text)
 
+echo "To check tomcat try: http://$instanceIp:8080"
