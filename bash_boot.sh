@@ -54,7 +54,7 @@ aws ec2 run-instances --profile $awsProfile --image-id $ami --count 1 --instance
                       --subnet-id $awssub \
                       --user-data file://bootstrap.sh
 
-sleep 30
+sleep 60
 
 #Get instance ID
 instanceId=$(aws ec2  describe-instances --profile $awsProfile \
