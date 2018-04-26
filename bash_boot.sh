@@ -69,7 +69,6 @@ instanceState=$(aws ec2 --profile $awsProfile describe-instances \
                --filters "Name=instance-state-code,Values=16"  \
                --query "Reservations[].Instances[].State.Name")
 
-echo "$instanceState"
 sleep 2
 
 #Check instance status
