@@ -51,7 +51,8 @@ aws ec2 run-instances --profile $awsProfile --image-id $ami --count 1 --instance
                       --key-name $keyName --security-group-ids $secGroup \
                       --placement AvailabilityZone=eu-west-1a \
                       --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$tagName}]" \
-                      --subnet-id $awssub
+                      --subnet-id $awssub \
+                      --user-data file://bootstrap.sh
 
 sleep 30
 
@@ -97,9 +98,4 @@ instanceIp=$(aws --profile $awsProfile ec2 describe-instances \
 	"Name=instance-state-name,Values=running" \
 	--query 'Reservations[*].Instances[*].PrivateIpAddress[]' \
 	--output text)
-#Copy bootstrap script to new instance
-scp -i $keyLocation bootstrap.sh $remoteUser@$instanceIp:/home/$remoteUser
 
-#Connect via ssh to new instance and run bootstrap script
-ssh -i $keyLocation -t ubuntu@$instanceIp \
-"chmod +x bootstrap.sh | /home/$remoteUser/bootstrap.sh"
