@@ -53,7 +53,7 @@ aws ec2 run-instances --profile $awsProfile --image-id $ami --count 1 --instance
                       --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$tagName}]" \
                       --subnet-id $awssub
 
-sleep 5
+sleep 30
 
 #Get instance ID
 instanceId=$(aws ec2  describe-instances --profile $awsProfile \
@@ -63,13 +63,14 @@ instanceId=$(aws ec2  describe-instances --profile $awsProfile \
 
 echo "$instanceId"
 
+
 #Get instance state
 instanceState=$(aws ec2 --profile $awsProfile describe-instances \
                --instance-id $instanceId \
                --filters "Name=instance-state-code,Values=16"  \
                --query "Reservations[].Instances[].State.Name")
 
-sleep 2
+sleep 5
 
 #Check instance status
 TimeWaited=0
