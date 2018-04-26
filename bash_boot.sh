@@ -77,7 +77,7 @@ while [ "$instanceState" = "pending" ]; do
     fi
     sleep 5
     TimeWaited=$[$TimeWaited+5]
-    instanceState="$(aws --profile $awsProfile ec2 describe-instance-status  --instance-id $instanceId | grep INSTANCESTATE | awk {'print $3'})"
+    instanceState=$(aws --profile $awsProfile ec2 describe-instance-status  --instance-id $instanceId | grep INSTANCESTATE | awk {'print $3'})
     echo "Waiting for instance to be available $TimeWaited s"
     echo "Status: $instanceId"
 done
