@@ -64,9 +64,9 @@ instanceId=$(aws ec2  describe-instances --profile $awsProfile \
 echo "$instanceId"
 
 #Get instance state
-instanceState=$("aws ec2 --profile $awsProfile describe-instances --instance-id $instanceId \ 
-                  --filters Name=instance-state-code,Values=16  \
-                  --query Reservations[].Instances[].State.Name i")
+instanceState=$(aws ec2 --profile $awsProfile describe-instances --instance-id $instanceId \ 
+                  --filters "Name=instance-state-code,Values=16"  \
+                  --query "Reservations[].Instances[].State.Name")
 sleep 2
 
 #Check instance status
@@ -78,9 +78,9 @@ while [ "$instanceState" = "pending" ]; do
     fi
     sleep 5
     TimeWaited=$[$TimeWaited+5]
-    instanceState=$("aws ec2 --profile $awsProfile describe-instances --instance-id $instanceId \
-                  --filters Name=instance-state-code,Values=16  \
-                  --query Reservations[].Instances[].State.Name")
+    instanceState=$(aws ec2 --profile $awsProfile describe-instances --instance-id $instanceId \
+                  --filters "Name=instance-state-code,Values=16"  \
+                  --query "Reservations[].Instances[].State.Name")
     
     echo "Waiting for instance to be available $TimeWaited s"
     echo "Status: $instanceId"
