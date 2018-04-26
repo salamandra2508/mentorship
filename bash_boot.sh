@@ -65,7 +65,7 @@ echo "$instanceId"
 
 #Get instance state
 instanceState="$(aws --profile $awsProfile ec2 describe-instance-status \
-                 --instance-id $instanceId | grep INSTANCESTATE | awk {'print $3'})"
+                 --instance-id $instanceId | awk {'print $3'}) | grep INSTANCESTATE"
 sleep 2
 
 #Check instance status
