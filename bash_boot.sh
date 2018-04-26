@@ -4,39 +4,32 @@ set -x
 #Set REQUIREMENTS for new instance
 secGroup="sg-894444ec"
 ami="ami-eceba695"
-keyName="DT.STAGEQA.KEY"
-keyLocation=""
 awsProfile=""
 tagName=""
 instanceType=""
 awsvpc="vpc-bb8d33de"
 awssub="subnet-44472d21"
-remoteUser=""
 
 # How to use this script
 usage() {
     cat<<EOF >&2
     How to use:
-    $0 -p awsProfile -t tagName -i instanceType -k keyLocation
+    $0 -p awsProfile -t tagName -i instanceType 
     Example:
     -p awsprofile: prod, preprd
     -t tagName: Test.QA, Test.ST, Test.PROD
     -i instance_type: t2.micro, m5.large, c4.xlarge
-    -k keyLocation: set location of ssh key
-    -u Default remote host user
-     $0 -p preprd -t Test.QA -i t2.micro -k /home/user/.ssh/DTSTAGEQAKEY.pem -u ubuntu
+     $0 -p preprd -t Test.QA -i t2.micro 
 EOF
 }
 
 #Set arguments
-while getopts :p:t:i:k:u:: opt
+while getopts :p:t:i:: opt
 do
     case $opt in
         p) awsProfile="$OPTARG";;
         t) tagName="$OPTARG";;
         i) instanceType="$OPTARG";;
-        k) keyLocation="$OPTARG";;
-        u) remoteUser="$OPTARG";;
         *) usage;;
     esac
 done
