@@ -64,9 +64,9 @@ instanceId=$(aws ec2  describe-instances --profile $awsProfile \
 echo "$instanceId"
 
 #Get instance state
-instanceState="$("aws ec2 --profile $awsProfile describe-instances --instance-id $instanceId \ 
+instanceState=$("aws ec2 --profile $awsProfile describe-instances --instance-id $instanceId \ 
                   --filters Name=instance-state-code,Values=16  \
-                  --query Reservations[].Instances[].State.Name "
+                  --query Reservations[].Instances[].State.Name i")
 sleep 2
 
 #Check instance status
