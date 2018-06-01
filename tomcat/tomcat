@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:supermarket.chef.io,2005:/cookbooks/tomcat</id>
+  <link rel="alternate" type="text/html" href="https://supermarket.chef.io"/>
+  <link rel="self" type="application/atom+xml" href="https://supermarket.chef.io/cookbooks/tomcat"/>
+  <title>tomcat versions</title>
+  <updated>2017-10-27T17:59:42Z</updated>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/22791</id>
+    <published>2017-10-27T17:59:42Z</published>
+    <updated>2017-10-27T17:59:42Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/3.0.0"/>
+    <title>tomcat - v3.0.0</title>
+    <content type="html">        &lt;p&gt;Installs Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="3-0-0-2017-10-27"&gt;3.0.0 (2017-10-27)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add ability to set the tomcat user's shell&lt;/li&gt;
+&lt;li&gt;Document user&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/3.0.0#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/21919</id>
+    <published>2017-06-29T00:24:11Z</published>
+    <updated>2017-06-29T00:24:11Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.5.2"/>
+    <title>tomcat - v2.5.2</title>
+    <content type="html">        &lt;p&gt;Installs Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="2-5-2-2017-06-28"&gt;2.5.2 (2017-06-28)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Test on multiple versions of chef&lt;/li&gt;
+&lt;li&gt;Fix double catalina_base env&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.5.2#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/21570</id>
+    <published>2017-05-30T18:36:49Z</published>
+    <updated>2017-05-30T18:36:49Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.5.1"/>
+    <title>tomcat - v2.5.1</title>
+    <content type="html">        &lt;p&gt;Installs Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="2-5-1-2017-05-30"&gt;2.5.1 (2017-05-30)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remove class_eval usage to prevent failures&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="2-5-0-2017-05-02"&gt;2.5.0 (2017-05-02)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Move the&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.5.1#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/21187</id>
+    <published>2017-05-02T18:58:37Z</published>
+    <updated>2017-05-02T18:58:37Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.5.0"/>
+    <title>tomcat - v2.5.0</title>
+    <content type="html">        &lt;p&gt;Installs Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="2-5-0-2017-05-02"&gt;2.5.0 (2017-05-02)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Move the action_class after the actions to workaround a 12.5/12.6&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.5.0#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/20571</id>
+    <published>2017-03-24T17:11:38Z</published>
+    <updated>2017-03-24T17:11:38Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.4.0"/>
+    <title>tomcat - v2.4.0</title>
+    <content type="html">        &lt;p&gt;Installs Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="2-4-0-2017-03-24"&gt;2.4.0 (2017-03-24)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Updated chef_version in the metadata to not fail metadata parsing&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.4.0#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/19085</id>
+    <published>2016-11-28T23:38:51Z</published>
+    <updated>2016-11-28T23:38:51Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.3.4"/>
+    <title>tomcat - v2.3.4</title>
+    <content type="html">        &lt;p&gt;Installs Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="2-3-4-2016-11-28"&gt;2.3.4 (2016-11-28)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Set tomcat_group in service_sysv_init.rb, for issue 275&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="2-3-3-2016-10-24"&gt;2.3.3 (2016-10-24)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Depend&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.3.4#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/18551</id>
+    <published>2016-10-25T00:35:12Z</published>
+    <updated>2016-10-25T00:35:12Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.3.3"/>
+    <title>tomcat - v2.3.3</title>
+    <content type="html">        &lt;p&gt;Installs Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="2-3-3-2016-10-24"&gt;2.3.3 (2016-10-24)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Depend on the latest compat_resource&lt;/li&gt;
+&lt;li&gt;Remove a few LWRP-isms that&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.3.3#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/17619</id>
+    <published>2016-08-24T21:48:34Z</published>
+    <updated>2016-08-24T21:49:17Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.3.2"/>
+    <title>tomcat - v2.3.2</title>
+    <content type="html">        &lt;p&gt;Installs Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="2-3-2-2016-08-24"&gt;2.3.2 (2016-08-24)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use /bin/false as the shell for the service user&lt;/li&gt;
+&lt;li&gt;Don't&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.3.2#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/17072</id>
+    <published>2016-07-06T06:19:45Z</published>
+    <updated>2016-07-06T06:19:47Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.3.1"/>
+    <title>tomcat - v2.3.1</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-3-1-2016-07-05"&gt;v2.3.1 (2016-07-05)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix specifying user/group on init based installs&lt;/li&gt;
+&lt;li&gt;Fix upstart to&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.3.1#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/17013</id>
+    <published>2016-06-27T22:50:13Z</published>
+    <updated>2016-06-27T22:50:15Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.3.0"/>
+    <title>tomcat - v2.3.0</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-3-0-2016-06-27"&gt;v2.3.0 (2016-06-27)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Allow specifying the tomcat user/group in the tomcat_install and tomcat_service&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.3.0#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/16998</id>
+    <published>2016-06-25T21:00:27Z</published>
+    <updated>2016-06-25T21:00:29Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.2.3"/>
+    <title>tomcat - v2.2.3</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-2-3-2016-06-25"&gt;v2.2.3 (2016-06-25)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed the sys-v init scripts to have a unique "provides"&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.2.3#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/16967</id>
+    <published>2016-06-23T16:38:14Z</published>
+    <updated>2016-06-23T16:38:16Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.2.2"/>
+    <title>tomcat - v2.2.2</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-2-2-2016-06-23"&gt;v2.2.2 (2016-06-23)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Allow excluding ENV values from logs by setting &lt;code&gt;sensitive&lt;/code&gt; property&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.2.2#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/16955</id>
+    <published>2016-06-23T03:46:04Z</published>
+    <updated>2016-06-23T03:46:06Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.2.1"/>
+    <title>tomcat - v2.2.1</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-2-1-2016-06-22"&gt;v2.2.1 (2016-06-22)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix restarts on init systems&lt;/li&gt;
+&lt;li&gt;Allow setting SHUTDOWN_WAIT time in&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.2.1#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/16886</id>
+    <published>2016-06-19T17:48:15Z</published>
+    <updated>2016-06-19T17:48:17Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.2.0"/>
+    <title>tomcat - v2.2.0</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-2-0-2016-06-19"&gt;v2.2.0 (2016-06-19)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add a new &lt;code&gt;tarball_uri&lt;/code&gt; property to the install resource to&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.2.0#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/16371</id>
+    <published>2016-05-10T22:33:58Z</published>
+    <updated>2016-05-10T22:34:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.1.3"/>
+    <title>tomcat - v2.1.3</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-1-3-2016-05-10"&gt;v2.1.3 (2016-05-10)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix regression in the service resource on suse&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="v2-1-2-2016-05-06"&gt;v2.1.2 (2016-05-06)&lt;/h2&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.1.3#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/16342</id>
+    <published>2016-05-06T17:03:21Z</published>
+    <updated>2016-05-06T17:03:23Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.1.2"/>
+    <title>tomcat - v2.1.2</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-1-2-2016-05-06"&gt;v2.1.2 (2016-05-06)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Restore Amazon Linux compatibility&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="v2-1-1-2016-05-05"&gt;v2.1.1 (2016-05-05)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create the tomcat user&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.1.2#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/16328</id>
+    <published>2016-05-05T20:09:03Z</published>
+    <updated>2016-05-05T20:09:05Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.1.1"/>
+    <title>tomcat - v2.1.1</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-1-1-2016-05-05"&gt;v2.1.1 (2016-05-05)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create the tomcat user as a system user&lt;/li&gt;
+&lt;li&gt;Use platform_family&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.1.1#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/16078</id>
+    <published>2016-04-18T18:06:38Z</published>
+    <updated>2016-04-18T18:06:40Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.1.0"/>
+    <title>tomcat - v2.1.0</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-1-0-2016-04-18"&gt;v2.1.0 (2016-04-18)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added proper systemd support for opensuse 13+&lt;/li&gt;
+&lt;li&gt;Fixed all systemd&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.1.0#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/16039</id>
+    <published>2016-04-15T22:40:20Z</published>
+    <updated>2016-04-15T22:40:22Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.0.5"/>
+    <title>tomcat - v2.0.5</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-0-5-2016-04-15"&gt;v2.0.5 (2016-04-15)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed the install resource to properly remove the ROOT app&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.0.5#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/16014</id>
+    <published>2016-04-13T16:24:34Z</published>
+    <updated>2016-04-13T16:24:37Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.0.4"/>
+    <title>tomcat - v2.0.4</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-0-4-2016-04-13"&gt;v2.0.4 (2016-04-13)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed a copy / paste mistake in the chefspec matchers&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.0.4#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/15904</id>
+    <published>2016-04-03T03:13:36Z</published>
+    <updated>2016-04-03T03:13:38Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.0.3"/>
+    <title>tomcat - v2.0.3</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-0-3-2016-04-01"&gt;v2.0.3 (2016-04-01)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix Tomcat 7 installations on systemd not starting by changing&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.0.3#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/15665</id>
+    <published>2016-03-16T19:05:58Z</published>
+    <updated>2016-03-16T19:06:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.0.2"/>
+    <title>tomcat - v2.0.2</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-0-2-2016-03-16"&gt;v2.0.2 (2016-03-16)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Avoid namespace conflicts with other cookbooks that were causing failures&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.0.2#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/15557</id>
+    <published>2016-03-08T00:38:19Z</published>
+    <updated>2016-03-08T00:38:21Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.0.1"/>
+    <title>tomcat - v2.0.1</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-0-1-2016-03-07"&gt;v2.0.1 (2016-03-07)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix HTTP download of the Tomcat artifact to use a&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.0.1#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/15495</id>
+    <published>2016-03-02T23:31:53Z</published>
+    <updated>2016-03-02T23:31:54Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.0.0"/>
+    <title>tomcat - v2.0.0</title>
+    <content type="html">        &lt;p&gt;Installs and Apache Tomcat and manages the service&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v2-0-0-2016-03-02"&gt;v2.0.0 (2016-03-02)&lt;/h2&gt;
+
+&lt;p&gt;COMPATIBILIY WARNING
+This version removes the existing recipes, attributes, and&lt;/p&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/2.0.0#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/15405</id>
+    <published>2016-02-26T05:59:20Z</published>
+    <updated>2016-02-26T05:59:24Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/1.3.0"/>
+    <title>tomcat - v1.3.0</title>
+    <content type="html">        &lt;p&gt;Installs and configures Apache Tomcat&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v1-3-0-2016-02-25"&gt;v1.3.0 (2016-02-25)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Resolve missing directory warnings on Debian based systems that use&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/1.3.0#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/15398</id>
+    <published>2016-02-26T00:39:33Z</published>
+    <updated>2016-02-26T00:39:37Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/1.2.1"/>
+    <title>tomcat - v1.2.1</title>
+    <content type="html">        &lt;p&gt;Installs and configures Apache Tomcat&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v1-2-1-2016-02-25"&gt;v1.2.1 (2016-02-25)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added restart and enable actions to tomcat_service resource&lt;/li&gt;
+&lt;li&gt;Fixed init&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/1.2.1#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/15394</id>
+    <published>2016-02-25T22:46:14Z</published>
+    <updated>2016-02-25T22:46:19Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/1.2.0"/>
+    <title>tomcat - v1.2.0</title>
+    <content type="html">        &lt;p&gt;Installs and configures Apache Tomcat&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v1-2-0-2016-02-25"&gt;v1.2.0 (2016-02-25)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added systemd and upstart support to tomcat_service custom resource&lt;/li&gt;
+&lt;li&gt;tomcat_install&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/1.2.0#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/15369</id>
+    <published>2016-02-24T05:27:41Z</published>
+    <updated>2016-02-24T05:27:44Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/1.1.0"/>
+    <title>tomcat - v1.1.0</title>
+    <content type="html">        &lt;p&gt;Installs and configures Apache Tomcat&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v1-1-0-2016-02-23"&gt;v1.1.0 (2016-02-23)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Included new experimental tomcat_install and tomcat_service custom resource for pulling&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/1.1.0#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/14173</id>
+    <published>2015-12-01T17:18:22Z</published>
+    <updated>2015-12-01T17:18:26Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/1.0.1"/>
+    <title>tomcat - v1.0.1</title>
+    <content type="html">        &lt;p&gt;Installs and configures Apache Tomcat&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v1-0-1-2015-12-01"&gt;v1.0.1 (2015-12-01)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Resolved a missing method error in the instance provider&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="v1-0-0-2015-11-30"&gt;v1.0.0&lt;/h2&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/1.0.1#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/14145</id>
+    <published>2015-11-30T20:17:44Z</published>
+    <updated>2015-11-30T20:17:47Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/1.0.0"/>
+    <title>tomcat - v1.0.0</title>
+    <content type="html">        &lt;p&gt;Installs and configures Apache Tomcat&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v1-0-0-2015-11-30"&gt;v1.0.0(2015-11-30)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BREAKING: This cookbook now requires Chef 12.1+ due to the use&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/1.0.0#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/10054</id>
+    <published>2015-02-23T02:49:19Z</published>
+    <updated>2015-02-23T02:49:21Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.17.3"/>
+    <title>tomcat - v0.17.3</title>
+    <content type="html">        &lt;p&gt;Installs/Configures tomcat&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v0-17-3-2015-02-22"&gt;v0.17.3 (2015-02-22)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix package names and directories for Tomcat 7 on RHEL&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.17.3#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/10029</id>
+    <published>2015-02-19T23:42:51Z</published>
+    <updated>2015-02-19T23:42:53Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.17.2"/>
+    <title>tomcat - v0.17.2</title>
+    <content type="html">        &lt;p&gt;Installs/Configures tomcat&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v0-17-2-2015-02-18"&gt;v0.17.2 (2015-02-18)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;reverting OpenSSL module namespace change&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="v0-17-1-2015-02-17"&gt;v0.17.1 (2015-02-17)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;updating to use&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.17.2#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/9983</id>
+    <published>2015-02-18T23:27:25Z</published>
+    <updated>2015-02-18T23:27:27Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.17.1"/>
+    <title>tomcat - v0.17.1</title>
+    <content type="html">        &lt;p&gt;Installs/Configures tomcat&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v0-17-1-2015-02-17"&gt;v0.17.1 (2015-02-17)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;updating to use the latest openssl&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="v0-17-0-2014-12-11"&gt;v0.17.0 (2014-12-11)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Removed installation&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.17.1#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/9123</id>
+    <published>2014-12-11T18:17:30Z</published>
+    <updated>2014-12-11T18:17:33Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.17.0"/>
+    <title>tomcat - v0.17.0</title>
+    <content type="html">        &lt;p&gt;Installs/Configures tomcat&lt;/p&gt;
+        &lt;h1 id="tomcat-cookbook-changelog"&gt;tomcat Cookbook CHANGELOG&lt;/h1&gt;
+&lt;p&gt;This file is used to list changes made in each version of the tomcat cookbook.&lt;/p&gt;
+
+&lt;h2 id="v0-17-0-2014-12-11"&gt;v0.17.0 (2014-12-11)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Removed installation of Java&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="v0-16-2-2014-08-06"&gt;v0.16.2 (2014-08-06)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;#80 - Fix broken&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;&lt;a href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.17.0#changelog"&gt;View Full Changelog&lt;/a&gt;&lt;/p&gt;
+</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/7344</id>
+    <published>2014-08-06T20:26:28Z</published>
+    <updated>2014-08-06T20:26:28Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.16.2"/>
+    <title>tomcat - v0.16.2</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/6422</id>
+    <published>2014-06-12T02:21:12Z</published>
+    <updated>2014-06-12T02:21:12Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.16.0"/>
+    <title>tomcat - v0.16.0</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5451</id>
+    <published>2014-04-24T03:20:36Z</published>
+    <updated>2014-04-24T03:20:36Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.15.12"/>
+    <title>tomcat - v0.15.12</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5450</id>
+    <published>2014-03-28T02:52:16Z</published>
+    <updated>2014-03-28T02:52:16Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.15.10"/>
+    <title>tomcat - v0.15.10</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5449</id>
+    <published>2014-03-19T14:39:01Z</published>
+    <updated>2014-03-19T14:39:01Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.15.8"/>
+    <title>tomcat - v0.15.8</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5448</id>
+    <published>2014-03-12T18:27:39Z</published>
+    <updated>2014-03-12T18:27:39Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.15.6"/>
+    <title>tomcat - v0.15.6</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5447</id>
+    <published>2014-02-18T17:55:05Z</published>
+    <updated>2014-02-18T17:55:05Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.15.4"/>
+    <title>tomcat - v0.15.4</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5446</id>
+    <published>2013-10-25T19:53:18Z</published>
+    <updated>2013-10-25T19:53:18Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.15.2"/>
+    <title>tomcat - v0.15.2</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5445</id>
+    <published>2013-10-08T19:44:43Z</published>
+    <updated>2013-10-08T19:44:43Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.15.0"/>
+    <title>tomcat - v0.15.0</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5444</id>
+    <published>2013-08-29T15:32:45Z</published>
+    <updated>2013-08-29T15:32:45Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.14.4"/>
+    <title>tomcat - v0.14.4</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5443</id>
+    <published>2013-06-15T20:44:05Z</published>
+    <updated>2013-08-12T15:51:33Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.14.2"/>
+    <title>tomcat - v0.14.2</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5442</id>
+    <published>2013-06-10T00:08:27Z</published>
+    <updated>2013-06-10T00:08:27Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.14.0"/>
+    <title>tomcat - v0.14.0</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5441</id>
+    <published>2013-05-21T22:36:29Z</published>
+    <updated>2013-05-21T22:36:29Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.13.0"/>
+    <title>tomcat - v0.13.0</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5440</id>
+    <published>2012-11-28T02:43:58Z</published>
+    <updated>2012-11-28T02:43:58Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.12.0"/>
+    <title>tomcat - v0.12.0</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5439</id>
+    <published>2012-08-16T21:45:56Z</published>
+    <updated>2012-08-16T21:45:56Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.11.0"/>
+    <title>tomcat - v0.11.0</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5438</id>
+    <published>2012-03-16T02:41:46Z</published>
+    <updated>2012-07-14T21:14:38Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.10.4"/>
+    <title>tomcat - v0.10.4</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5437</id>
+    <published>2010-12-10T17:36:13Z</published>
+    <updated>2011-04-14T05:28:22Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.10.3"/>
+    <title>tomcat - v0.10.3</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5436</id>
+    <published>2010-12-08T02:05:30Z</published>
+    <updated>2010-12-08T02:05:30Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.10.2"/>
+    <title>tomcat - v0.10.2</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5435</id>
+    <published>2010-12-02T01:50:35Z</published>
+    <updated>2010-12-02T01:50:35Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.10.1"/>
+    <title>tomcat - v0.10.1</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:supermarket.chef.io,2005:CookbookVersion/5434</id>
+    <published>2010-11-29T20:37:55Z</published>
+    <updated>2010-11-29T20:37:55Z</updated>
+    <link rel="alternate" type="text/html" href="https://supermarket.chef.io/cookbooks/tomcat/versions/0.10.0"/>
+    <title>tomcat - v0.10.0</title>
+    <content type="html">Installs/Configures tomcat</content>
+    <author>
+      <name>chef</name>
+      <uri>https://supermarket.chef.io/users/chef</uri>
+    </author>
+  </entry>
+</feed>

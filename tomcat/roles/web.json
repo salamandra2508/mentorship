@@ -1,0 +1,8 @@
+"name": "web",
+  "description": "Role for apache2 server",
+  "run_list": [
+    "role[web]",
+    "recipe[web]",
+    "role[postconfig]"
+  ]
+}

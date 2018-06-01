@@ -1,0 +1,15 @@
+<VirtualHost *:80>
+ServerAdmin root@localhost
+ServerName tomcatserver.com
+ServerAlias tomcatserver1.com
+DefaultType text/html
+ProxyRequests off
+ProxyPreserveHost On
+RewriteEngine on
+ProxyPass / http://192.168.33.10:8080/
+#ProxyPassReverse / http://192.168.33.10:8080/
+Redirect / http://localhost:8080/
+<If "%{HTTP_HOST} != '192.168.33.10/admin'">
+    Redirect "/admin" "http://192.168.33.10/manager/html"
+</If>
+</VirtualHost>
