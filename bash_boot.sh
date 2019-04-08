@@ -2,14 +2,14 @@
 set -x
 
 #Set REQUIREMENTS for new instance
-secGroup="sg-894444ec"
-ami="ami-eceba695"
+secGroup= #set Security group ID
+ami= #set AMI ID 
 awsProfile=""
-keyName="DT.STAGEQA.KEY"
+keyName= #Qset key name
 tagName=""
 instanceType=""
-awsvpc="vpc-bb8d33de"
-awssub="subnet-44472d21"
+awsvpc= #set vpc id
+awssub= #set subnet id 
 
 # How to use this script
 usage() {
